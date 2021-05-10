@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders correctly 1`] = `
+Array [
+  <button
+    className="btn btn-gray green-bg previous"
+    data-img="images/undraw_Balloons.svg"
+    onClick={[Function]}
+  >
+    Back
+  </button>,
+  <button
+    className="btn btn-gray green-bg next"
+    data-img="images/step2.svg"
+    onClick={[Function]}
+  >
+    Continue
+  </button>,
+]
+`;

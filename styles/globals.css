@@ -1,0 +1,3085 @@
+/* RESET CSS */
+html * {
+  margin: 0;
+  padding: 0;
+  font: 12px Verdana, Arial;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+images {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+abbr,
+acronym {
+  border: 0;
+}
+
+h1 b,
+h2 b,
+h3 b,
+h4 b,
+h5 b,
+h6 b {
+  display: none;
+}
+
+.floatleft {
+  float: left;
+}
+
+.clearall {
+  clear: both;
+}
+
+/* GERAL */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  background: #fff;
+  text-align: center;
+  font: 11px Verdana, Geneva, sans-serif;
+}
+
+.site {
+  width: 920px;
+  margin: auto;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.verdedc {
+  color: #137069 !important;
+}
+/* Bullets e Listas */
+.icone00 {
+  background: url(/images/home/icone_alvo00.jpg) no-repeat;
+}
+
+.icone01 {
+  background: url(/images/home/icone_alvo01.jpg) no-repeat;
+}
+
+.icone02 {
+  background: url(/images/home/icone_alvo02.jpg) no-repeat;
+}
+
+.icone03 {
+  background: url(/images/home/icone_alvo03.jpg) no-repeat;
+}
+
+.icone04 {
+  background: url(/images/home/icone_alvo04.jpg) no-repeat;
+}
+
+.number01 {
+  background: url(/images/institucional/bulletnumero01.png) no-repeat;
+}
+
+.number02 {
+  background: url(/images/institucional/bulletnumero02.png) no-repeat;
+}
+
+.number03 {
+  background: url(/images/institucional/bulletnumero03.png) no-repeat;
+}
+/* Menu de Abas */
+.menuabas {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: url(/images/forum/fundobtnlinha.jpg);
+  margin-top: 20px;
+  height: 45px;
+  clear: both;
+}
+
+.menuabas ul {
+  margin: 0 0 0 50px;
+}
+
+.menuabas ul li {
+  float: left;
+  margin: 0 0 0 1px;
+  padding: 0 15px;
+  background: url(/images/forum/fundobtn.jpg);
+  display: block;
+  height: 22px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  behavior: url(/include/PIE.htc);
+  border: 1px solid #d6d6d6;
+  border-bottom: 0px;
+}
+
+.menuabas ul li a {
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menuabas ul li:hover,
+.menuabas ul li.marcado {
+  background: url(/images/forum/fundobtnselecionado.jpg);
+}
+
+.menuabas ul li:hover a,
+.menuabas ul li.marcado a {
+  color: #999;
+}
+/* Bread Crumb Trail */
+.breadcrumb {
+  clear: both;
+  display: block;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.breadcrumb li {
+  float: left;
+  padding: 5px 2px;
+  color: #999999;
+  font: 14px Arial, Helvetica, sans-serif;
+}
+
+.breadcrumb li.selecionada {
+  color: #117267;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Faixa Superior */
+.fxheader {
+}
+
+.fxheader .site {
+  overflow: hidden;
+  height: 40px;
+}
+
+.fxheader .site ul {
+  margin: 9px 0 0 40px;
+}
+
+.fxheader .site ul li {
+  float: left;
+  padding: 3px;
+  color: #fff;
+}
+
+.fxheader .site ul li.logo {
+  width: 45px;
+  height: 45px;
+}
+
+.fxheader .site ul li.logo img {
+  width: 140px;
+  height: 45px;
+  margin-top: -10px;
+  margin-left: -30px;
+}
+
+.fxheader .site a {
+  color: #fff;
+  font-size: 10px;
+}
+
+.fxheader div form {
+  float: left;
+  display: block;
+  padding: 0 0 0 30px;
+}
+
+.fxheader div form a {
+  display: block;
+  float: left;
+  padding: 5px 0 0 10px;
+}
+
+.fxheader div form input {
+  padding: 3px;
+  width: 155px;
+  float: left;
+  margin: 0 3px;
+}
+
+.fxheader div form input.btlogin {
+  width: 70px;
+  color: #fff;
+  background: #137069;
+  border: 1px solid #fff;
+  margin-top: -1px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.fxheader .site iframe {
+  float: right;
+}
+
+.fxheader .site iframe.formlogin {
+  float: left;
+  margin: -5px 0 0 0px;
+}
+
+.fxheader .site ul.infoslogado {
+}
+
+.fxheader .site ul.infoslogado li {
+  color: #ff6633;
+}
+
+.fxheader .site ul.infoslogado li.loginuser {
+  background: url('/images/header/icone_logado.png') no-repeat scroll 480px 3px
+    transparent;
+  color: #999999;
+  font-size: 10px;
+  padding: 5px 8px 5px 500px;
+}
+
+.fxheader .site ul.infoslogado li a {
+  color: #999;
+}
+/* Header */
+.site h1.logo {
+  background: url(/images/header/logo.jpg) no-repeat;
+  width: 397px;
+  height: 97px;
+  float: left;
+  display: none;
+}
+
+.infocomplemforum {
+  display: none;
+}
+
+.infocomplem {
+  width: 580px;
+  float: left;
+  display: none;
+}
+
+.infocomplem h3 {
+  font: 21px Arial, Helvetica, sans-serif;
+  padding: 20px 20px 10px 0;
+  color: gray;
+  text-align: right;
+}
+
+.infocomplem ul {
+  margin: 0 15px 0 0;
+}
+
+.infocomplem ul li {
+  float: right;
+  padding: 2px 3px;
+  color: #ff6633;
+}
+
+.infocomplem ul li a {
+  color: #666;
+}
+
+.infocomplem ul li.acabadir {
+  width: 20px;
+  background: url(/images/header/semicirculodir.gif) no-repeat;
+}
+
+.infocomplem ul li.acabaesq {
+  width: 14px;
+  background: url(/images/header/semicirculoesq.gif) no-repeat;
+}
+
+.bx-wrapper {
+  clear: both;
+}
+
+.faixabanner {
+}
+
+.faixabanner li a {
+  height: 285px;
+  display: block;
+  width: 100%;
+}
+
+.faixabanner li a b {
+  display: none;
+}
+
+.faixabanner li.banner01 a {
+  background: url(/images/header/banner01.jpg) no-repeat top center;
+}
+
+.faixabanner li.banner02 a {
+  background: url(/images/header/banner02.jpg) no-repeat top center;
+}
+/* HOME */
+.blocohome {
+  width: 240px;
+  float: left;
+  margin: 5px 0 0 5px;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.blocohome h5 {
+  padding: 0 15px 0 30px;
+  font: bold 16px Arial, Helvetica, sans-serif;
+  color: #666666;
+  height: 45px;
+}
+
+.blocohome p {
+  padding: 0 15px 0 30px;
+  color: #666666;
+  line-height: 16px;
+}
+
+input.btredondolaranja {
+  padding: 5px 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #ef632d;
+  background: url(/images/home/fdnbotaodegradee.jpg);
+  margin: 10px 0 0 30px;
+  color: #ef632d;
+  text-transform: uppercase;
+  cursor: pointer;
+  behavior: url(/include/PIE.htc);
+}
+/* Faixa Cinza */
+.fxcinza {
+  background: #e9e9e9;
+  padding: 15px 0 0 0;
+  clear: both;
+  overflow: hidden;
+}
+
+.fxcinza .blocohome h4 {
+  color: #137069;
+  text-transform: uppercase;
+  font: bold 16px Arial, Helvetica, sans-serif;
+  padding: 0 0 10px 0;
+}
+
+.linkvideo {
+  border: 1px solid #000;
+  position: relative;
+  display: block;
+  width: 224px;
+  height: 134px;
+}
+
+.linkvideo img {
+  border: 2px solid #fff;
+}
+
+.linkvideo img.btnplay {
+  border: 0px;
+  position: absolute;
+  top: 35px;
+  left: 80px;
+}
+
+.fxcinza .blocohome li {
+  font-size: 10px;
+  padding: 5px 15px 10px 0;
+  color: #434343;
+  line-height: 18px;
+}
+
+.fxcinza .blocohome li a {
+  color: #666;
+}
+/* Footer */
+.footer .blocohome {
+  padding-bottom: 0px;
+  margin-bottom: -20px;
+}
+
+.footer {
+  background: #ffffff;
+  clear: both;
+  overflow: hidden;
+  padding: 15px 0 0 0;
+}
+
+.footer ul li {
+  padding: 2px 0;
+}
+
+.footer ul li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer ul li ul {
+  margin-left: 20px;
+}
+
+.footer ul li ul li a {
+  color: #fff;
+  font-weight: normal;
+}
+
+.footer div.linhacopyr {
+  clear: both;
+  border-bottom: 1px solid #428d87;
+  overflow: hidden;
+  display: none;
+}
+
+.footer div.linhacopyr ul li {
+  float: right;
+  padding: 3px;
+}
+
+.footer p {
+  font-size: 10px;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  display: none;
+}
+
+.footer p strong {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* PAGINAS INTERNAS */
+.conteudointerno {
+  clear: both;
+  margin: 0 15px;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.conteudointerno a {
+  color: #ff6633;
+  text-decoration: underline;
+}
+
+.conteudointerno a:hover {
+  color: #666;
+}
+
+.conteudointerno h2 {
+  font: bold 18px Arial, Helvetica, sans-serif;
+  color: #ff6633;
+  padding: 0 0 5px 30px;
+}
+
+.conteudointerno h5 {
+  font: bold 14px Arial, Helvetica, sans-serif;
+  color: #137069;
+  padding: 0 0 5px 30px;
+}
+
+.conteudointerno p {
+  padding: 0 0 5px 30px;
+  line-height: 16px;
+  color: #666;
+}
+
+.conteudointerno .botaolaranjalinha {
+  clear: both;
+  background: url(/images/ir/botao_grdlaranja.jpg) no-repeat;
+  width: 963px;
+  height: 42px;
+  text-align: center;
+}
+
+.conteudointerno .botaolaranjalinha a {
+  margin: auto;
+  display: block;
+  width: 300px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 13px 5px 13px 0;
+  font-weight: bold;
+}
+
+.conteudointerno .blocoduploint {
+  width: 450px;
+  float: left;
+  margin-left: 20px;
+}
+
+.conteudointerno .blocoduploint p {
+  width: 450px;
+  padding: 0 0 20px 0;
+}
+
+.conteudointerno .blocoint {
+  width: 220px;
+  float: left;
+  margin-left: 20px;
+}
+
+.conteudointerno .blocoint p {
+  width: 220px;
+  padding: 0 0 20px 0;
+}
+
+.conteudointerno h6 {
+  padding: 20px 0 10px 0;
+  font-weight: bold;
+  color: #666;
+}
+
+/* IMPOSTO DE RENDA */
+.landpageir {
+  background: url(/images/ir/fundolandingpage.jpg) no-repeat top right;
+}
+
+.landpageir h5,
+.landpageir p {
+  width: 470px;
+}
+
+.landpageir p {
+  padding-bottom: 50px;
+}
+
+.landpageir h5.banner01 {
+  width: 470px;
+  padding: 0px;
+  float: left;
+  background: url(/images/ir/banner01.jpg) no-repeat bottom left;
+  height: 152px;
+  margin: 0 0 0 30px;
+}
+
+.landpageir h5.banner02 {
+  width: 450px;
+  padding: 0px;
+  float: right;
+  background: url(/images/ir/banner02.jpg) no-repeat bottom left;
+  height: 152px;
+}
+
+a.caixaconsultoria {
+  display: block;
+  font-weight: bold;
+  background: url(/images/ir/basebotaoconsult.jpg) no-repeat;
+  text-align: center;
+  color: #fff;
+  padding: 12px 0;
+  text-decoration: none;
+}
+
+a.caixaconsultoria:hover {
+  color: #ff6633;
+}
+
+/* IMPOSTO DE RENDA */
+.landpageforum {
+  background: url(/images/forum/fundolandingpage.jpg) no-repeat top right;
+}
+
+.landpageforum h5,
+.landpageforum p {
+  width: 400px;
+}
+
+/* DOAÇAO */
+.landpagedoacao {
+  background: url(/images/doacao/fundolandingpage.jpg) no-repeat top right;
+}
+
+.landpagedoacao h5,
+.landpagedoacao p {
+  width: 400px;
+}
+
+/* PLANEJAMENTO FAMILIAR */
+.landpageplanejamento {
+  background: url(/images/planejamento/fundolandingpage.jpg) no-repeat top right;
+}
+
+.landpageplanejamento h5,
+.landpageplanejamento p {
+  width: 400px;
+}
+
+/* PAGINAS INSTITUCIONAIS */
+.paginasinstitucionais {
+}
+
+.paginasinstitucionais h5 {
+  padding: 20px 0 20px 30px;
+}
+
+.listaperguntasinst {
+  clear: both;
+  margin: 0 0 0 30px;
+}
+
+.listaperguntasinst li {
+  background: url(/images/institucional/bulletsetalaranja.jpg) no-repeat 0 10px;
+  padding: 10px 0 0 20px;
+}
+
+.listaperguntasinst li h4 {
+  font: bold 14px Arial, Helvetica, sans-serif;
+  color: #666;
+}
+
+.listaperguntasinst li h4 strong {
+  font: normal 12px Arial, Helvetica, sans-serif;
+}
+
+.listaperguntasinst li p {
+  padding: 0px;
+}
+
+.paginasinstitucionais .colunainstgrd .menuauxiliarint {
+  clear: both;
+  margin: 0px;
+  float: left;
+  display: block;
+  width: 170px;
+}
+
+.paginasinstitucionais .colunainstgrd .menuauxiliarint li {
+  background: url(/images/institucional/bulletsetalaranja.jpg) no-repeat 0 10px;
+  padding: 10px 0 10px 20px;
+}
+
+.paginasinstitucionais .colunainstgrd .menuauxiliarint li a {
+  color: #999;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.paginasinstitucionais .colunainstgrd .menuauxiliarint li a:hover {
+  color: #ff6633;
+}
+
+.paginasinstitucionais .colunainstgrd .menuauxiliarint li a.marcado {
+  color: #ff6633;
+}
+
+.paginasinstitucionais .colunainstgrd .conteudointernocoluna {
+  width: 500px;
+  float: left;
+  text-align: justify;
+  padding-top: 10px;
+}
+
+.paginasinstitucionais .colunainstgrd {
+  width: 700px;
+  float: left;
+  padding-bottom: 30px;
+}
+
+.paginasinstitucionais .colunainstdir {
+  width: 240px;
+  float: right;
+  padding: 0px;
+}
+
+.paginasinstitucionais .colunainstdir h2 {
+  margin: 0px;
+  padding: 55px 0 0 15px;
+  font: bold 35px Arial, Helvetica, sans-serif;
+  color: #666;
+  line-height: 30px;
+}
+
+.paginasinstitucionais .colunainstdir ul {
+  margin: 30px 0 0 15px;
+}
+
+.paginasinstitucionais .colunainstdir ul li {
+  padding: 5px 15px 5px 30px;
+  margin: 10px 0 0 0;
+  background-position: 0px 2px;
+  color: #666;
+}
+
+.paginasinstitucionais .caixacomofunciona {
+  background: url(/images/institucional/caixacomofunciona.jpg) no-repeat;
+}
+
+.paginasinstitucionais .caixacomofunciona input.btcadastrese {
+  width: 221px;
+  height: 56px;
+  background: url(/images/institucional/btncadastrese.png) no-repeat 0 15px
+    transparent;
+  border: 0px;
+  color: #ef632d;
+  padding: 0px;
+  cursor: pointer;
+  margin: 10px 0 0 10px;
+}
+/* CADASTRO */
+.formcadastro {
+  background: url(/images/home/alvocadastro.jpg) no-repeat;
+  height: 300px;
+  padding: 20px 210px 0 0;
+  text-align: right;
+}
+
+.formcadastro input {
+  width: 200px;
+  padding: 3px;
+  margin: 5px;
+}
+/* BLOG */
+.blogdeclarecerto .site h1.logo {
+  background: url(/images/header/headerblog.jpg) no-repeat 10px 0px;
+  width: 977px;
+  height: 233px;
+}
+
+.blogdeclarecerto #corpo {
+  background: url(/images/header/fundoblgo.jpg) repeat-y;
+}
+
+.blogdeclarecerto .site div.infocomplem {
+  display: none;
+}
+
+.blogdeclarecerto .site .conteudointerno {
+  margin-left: 0px;
+}
+
+#content {
+  width: 700px;
+  float: left;
+}
+
+#sidebar {
+  width: 220px;
+  float: right;
+}
+
+#content h2 a {
+  color: #00a099 !important;
+  font: bold 20px Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border-bottom: 1px solid #999;
+  width: 100%;
+  display: block;
+}
+
+#content h2 a:hover {
+  text-decoration: underline;
+}
+
+#content .content p {
+  padding-bottom: 20px;
+}
+
+#content .info {
+  text-align: right;
+  padding: 0px 0 15px 0;
+}
+
+#content .under {
+  padding: 0 0 50px 30px;
+}
+
+#sidebar .widget {
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #999;
+  margin: 0 15px 20px 0;
+}
+
+#sidebar .widget h3 {
+  color: #00535a;
+  font: bold 16px Arial, Helvetica, sans-serif;
+}
+
+#sidebar .widget input {
+  padding: 3px 2px;
+}
+
+#sidebar .widget li.cat-item {
+  padding: 3px 0;
+}
+
+#sidebar .widget a {
+  text-decoration: none;
+}
+
+/* FORUM */
+.forumdeclarecerto .infocomplem {
+  display: none;
+}
+
+.forumdeclarecerto .infocomplemforum {
+  display: block;
+  width: 580px;
+  float: left;
+}
+
+.forumdeclarecerto .infocomplemforum h3 {
+  font: 20px Arial, Helvetica, sans-serif;
+  padding: 20px 20px 10px 0;
+  color: gray;
+  text-align: right;
+}
+
+.forumdeclarecerto .infocomplemforum ul {
+  margin: 0 0 0 0;
+}
+
+.forumdeclarecerto .infocomplemforum ul li {
+  float: left;
+  color: #ff6633;
+}
+
+.forumdeclarecerto .infocomplemforum ul li a {
+  color: #666;
+}
+
+.forumdeclarecerto .infocomplemforum ul li form {
+  padding: 0px 5px;
+}
+
+.forumdeclarecerto .infocomplemforum ul li input {
+  float: left;
+}
+
+.forumdeclarecerto .infocomplemforum ul li input.campopesquisa {
+  padding: 5px 3px;
+  border: 1px solid #cccccc;
+  width: 110px;
+  color: #cccccc;
+}
+
+.forumdeclarecerto .infocomplemforum ul li input.btpesquisar {
+  padding: 0px;
+  width: 34px;
+  border: 0px;
+}
+
+.forumdeclarecerto .infocomplemforum ul li input.btredondolaranja {
+  margin: 0px;
+  padding: 5px 10px;
+}
+
+.forumdeclarecerto .infocomplemforum ul li.linkstxt {
+  padding: 6px 3px;
+}
+
+.forumdeclarecerto .infocomplemforum ul li.primeirolink {
+  padding-left: 30px;
+}
+
+.forumdeclarecerto .colunainstgrd {
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+  width: 680px;
+}
+/* Listagem Forum */
+.listagemforum {
+}
+
+.listagemforum td {
+  padding: 5px;
+  border-left: 3px solid #fff;
+  color: #999;
+}
+
+.listagemforum tr:hover {
+  background: #f6f6f6;
+}
+
+.listagemforum tbody td {
+  border-bottom: 1px dashed #dadada !important;
+}
+
+.listagemforum td.coltitulo {
+  padding: 5px 0;
+}
+
+.listagemforum td span {
+  color: #000;
+}
+
+.listagemforum td a {
+  text-decoration: none;
+  color: #999;
+}
+
+.listagemforum thead td {
+  background: #f2f2f2;
+  font-size: 10px;
+}
+
+.listagemforum thead td ul li {
+  float: left;
+  padding: 4px 10px;
+}
+
+.listagemforum thead td ul li.marcado,
+.listagemforum thead td ul li:hover {
+  background: #fff;
+}
+
+.listagemforum thead td.coltitulo {
+  padding: 5px 0 0 10px;
+}
+
+.listagemforum td.colvotos,
+.listagemforum td.colrespostas,
+.listagemforum td.colconsultas {
+  text-align: center;
+}
+
+.listagemforum td div.boxconteudo {
+  border-right: 1px solid #999;
+  overflow: hidden;
+}
+
+.listagemforum td h2 {
+  margin: 0px;
+  padding: 5px 0;
+}
+
+.listagemforum td h2 a {
+  font: bold 14px Arial, Helvetica, sans-serif;
+  color: #117267;
+}
+
+div.subcontesq {
+  width: 300px;
+  float: left;
+}
+
+div.subcontdir {
+  width: 180px;
+  float: right;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.paginacao {
+  background: #f2f2f2;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.paginacao a {
+  color: #666;
+}
+
+/* ENTRADA DE DAOOS */
+.entradadedados .menuabas ul {
+  margin: 0 0 0 10px;
+}
+
+.entradadedados p {
+  padding: 5px 10px;
+}
+
+h5.trigger {
+  padding: 0 0 0 30px;
+  margin: 15px 0;
+  background: url(/images/ir/btmais.gif) no-repeat 10px 0;
+  clear: both;
+}
+
+h5.trigger a {
+  text-decoration: none;
+  display: block;
+}
+
+h5.trigger a:hover {
+  color: #999;
+}
+
+h5.active {
+  background: url(/images/ir/btmenos.gif) no-repeat 10px 0;
+}
+
+.toggle_container {
+  padding: 0px 25px 25px 25px;
+  overflow: hidden;
+}
+
+.blocodados {
+  width: 215px;
+  padding: 5px;
+  height: 50px;
+  float: left;
+}
+
+.blocodados label {
+  font-size: 10px;
+  display: block;
+  padding: 2px 0;
+  background: url(/images/ir/btinterroga.gif) no-repeat 200px 3px;
+}
+
+.blocodados input {
+  width: 200px;
+  padding: 3px 1px;
+  border: 1px solid #cccccc;
+}
+
+.blocodados input:focus {
+  background: #ebf4f3;
+}
+
+p#vtip {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  left: 5px;
+  font-size: 0.8em;
+  z-index: 9999;
+  background: #fff;
+  border: 1px solid #ff6d0c;
+  width: 250px;
+  height: 50px;
+}
+
+p#vtip #vtipArrow {
+  position: absolute;
+  top: 70px;
+  left: 5px;
+}
+
+/* Ranking */
+.tbRanking {
+  width: 100%;
+}
+
+.tbRanking tr:hover td {
+  background: #ebf4f3;
+}
+
+.tbRanking td {
+  padding: 10px 5px;
+  border-bottom: 1px dashed #dbdbdb;
+  color: #6d6d6d;
+}
+
+.tbRanking td.link {
+  display: none;
+}
+
+.tbRanking td.ranking {
+  width: 30px;
+  text-align: center;
+}
+
+.tbRanking td.ranking strong {
+  font: bold 40px Arial, Helvetica, sans-serif;
+}
+
+.tbRanking td.cenario {
+  color: #333;
+}
+
+.tbRanking td.valor {
+  width: 100px;
+  text-align: center;
+}
+
+.tbRanking td.valor .restituir {
+  color: #0a5f5b;
+}
+
+.tbRanking td.valor .pagar {
+  color: red;
+}
+
+/* FORUM - PAGINAS INTERNAS 25/11/2011 
+
+ESQUECER ACIMA DISSO, COPIAR APENAS DAQUI PARA BAIXO */
+.conteudointerno h1 {
+  font: bold 18px Arial, Helvetica, sans-serif;
+  color: #ff6633;
+  padding: 0 0 5px 33px;
+  margin: 0 0 10px 0;
+}
+
+.conteudointerno h1 a {
+  font-size: inherit;
+  text-decoration: none;
+}
+
+.posicionamentoBanner {
+  margin-left: 30px;
+  margin-top: 8px;
+}
+
+#EspacoLogoDC a,
+.envelope-on,
+.envelope-off,
+.VotoDC-up-off,
+.VotoDC-up-on,
+.VotoDC-down-off,
+.VotoDC-down-on,
+.star-on,
+.star-off,
+.comment-up-off,
+.comment-up-on,
+.flag-off,
+.flag-on,
+.edited-yes,
+a.cc-wiki-link,
+.feed-icon,
+.VotoDC-accepted-off,
+.VotoDC-accepted-on,
+.VotoDC-accepted-bounty,
+.badge-earned-check,
+.ExclusaoPalavraChaveDC,
+.ExclusaoPalavraChaveDC-hover,
+.badge1,
+.badge2,
+.badge3 {
+  background-image: url('/images/forum/sprites-forum-DC.png');
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.flag-off {
+  background-position: 9px -681px;
+}
+
+.flag-on {
+  background-position: 9px -656px;
+}
+
+.TextoDePostDC {
+  padding-top: 10px;
+}
+
+.conteudointerno a.post-tag {
+  background-color: #006666;
+  border: 0px solid #aaaaaa;
+  color: #fff;
+  text-decoration: none;
+}
+
+.conteudointerno a.post-tag:hover {
+  background-color: #ef622d;
+}
+
+.conteudointerno table.fw {
+  width: 610px;
+}
+
+.conteudointerno table.fw td.vt {
+  vertical-align: top;
+}
+
+.conteudointerno table.fw td.AssinaturaPostDC {
+  width: 230px;
+  padding: 10px;
+}
+
+.conteudointerno table.fw td.owner {
+  background-color: #eeeeee;
+}
+
+.conteudointerno table.fw td.AssinaturaPostDC div.InfoDeUsuarioForum {
+  width: 230px;
+  height: auto;
+}
+
+.conteudointerno table.fw td.AssinaturaPostDC div.HoraRespostaUsuario {
+  clear: both;
+  font-size: 10px;
+}
+
+.conteudointerno
+  table.fw
+  td.AssinaturaPostDC
+  div.HoraRespostaUsuario
+  span.HoraAcao {
+  font-size: inherit;
+}
+
+.conteudointerno table.fw td.AssinaturaPostDC div.ImagemUsuarioDC {
+  padding: 5px 0;
+}
+
+.conteudointerno table.fw td.AssinaturaPostDC div.InformacoesUsuarioDC a {
+  text-decoration: none;
+}
+
+.menuabas div.answers-subheader {
+  width: 350px;
+  float: left;
+}
+
+.menuabas div.answers-subheader h2 {
+  padding-left: 0px;
+}
+
+.menuabas ul {
+}
+
+.AcoesPermitidasUsuario a:hover,
+.post-mperg a:hover {
+  background: none;
+}
+
+.answer {
+  padding: 0px;
+  margin-bottom: 20px;
+  width: 680px;
+}
+
+#post-form h2 {
+  padding-left: 0px;
+}
+
+#wmd-input {
+  width: 670px;
+}
+
+.SubmissaoDeFormularioDC input.btredondolaranja {
+  margin: 0px;
+}
+
+h2.bottom-notice {
+  padding: 0px;
+  color: #000;
+}
+
+h2.bottom-notice a,
+h2.bottom-notice span {
+  display: inline;
+  font-size: inherit;
+}
+
+.BGMensagemErro {
+  background-color: #ffffff !important;
+  color: #000 !important;
+}
+
+/* CONSULTORIA IR */
+.loginconsultoria {
+  background: url(/images/consultoria/fundo_consultoria.jpg) no-repeat right top;
+}
+
+.loginconsultoria div.colunainstgrd {
+  width: 600px;
+}
+
+.loginconsultoria div.colunainstgrd p {
+  clear: both;
+}
+
+.loginconsultoria div.colunainstgrd strong {
+  color: #117267;
+}
+
+.loginconsultoria div.colunainstgrd .formcadastro {
+  background: none;
+  padding: 20px 0 0 30px;
+  text-align: left;
+  height: auto;
+  float: left;
+  height: 250px;
+}
+
+.loginconsultoria div.colunainstgrd .alinhadodireita {
+  text-align: right;
+  padding: 20px 0 0 60px;
+}
+
+.loginconsultoria div.colunainstgrd .alinhadodireita h5 {
+  text-align: left;
+}
+
+.loginconsultoria div.colunainstgrd .formcadastro h5 {
+  padding: 0px;
+  font-size: 13px;
+}
+
+.loginconsultoria div.colunainstgrd .formcadastro input {
+  width: 130px;
+  padding: 3px;
+  margin: 5px;
+}
+
+.loginconsultoria div.colunainstgrd .formcadastro label {
+  font: bold 12px Verdana, Geneva, sans-serif;
+}
+
+.loginconsultoria div.colunainstgrd .formcadastro .btredondolaranja {
+  margin-left: 45px;
+}
+
+.loginconsultoriapq {
+  background: url(/images/consultoria/fundo_consultoria_pq.jpg) no-repeat right
+    top;
+}
+
+.loginconsultoriapq div.colunainstgrd {
+  width: 650px;
+}
+
+.loginconsultoriapq div.colunainstgrd strong {
+  color: #117267;
+}
+
+.tabprecosepacotes {
+  margin: 30px 0 0 20px;
+  width: 99%;
+}
+
+.loginconsultoria .tabprecosepacotes {
+  margin: 10px 0 10px 30px;
+  width: 550px;
+}
+
+.tabprecosepacotes td {
+  padding: 10px 5px;
+  border-bottom: 1px dashed #ccc;
+  vertical-align: top;
+}
+
+.loginconsultoria .tabprecosepacotes td strong {
+  color: inherit;
+}
+
+.tabprecosepacotes td p {
+  color: #000;
+  padding: 0px;
+}
+
+.tabprecosepacotes td h5 {
+  color: #ff6600;
+  font-size: 16px;
+  padding: 5px 0 0 0;
+}
+
+.tabprecosepacotes td.botao {
+  width: 30px;
+  vertical-align: middle;
+}
+
+.tabprecosepacotes td.preco {
+  width: 90px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.tabprecosepacotes td.numeros {
+  width: 171px;
+}
+
+.tabprecosepacotes td.descricao p {
+  padding-top: 23px;
+}
+
+.tabprecosepacotes td div.totaldentrotd {
+  width: 280px;
+  float: left;
+  font-size: 18px;
+}
+
+.tabprecosepacotes td div.totaldentrotd strong {
+  font-size: inherit;
+}
+
+.tabprecosepacotes td div.botnalterar {
+  width: 50px;
+  float: right;
+  padding-top: 5px;
+}
+
+.loginconsultoriapq div.totalcompra {
+  margin: 0 0 0 20px;
+  padding: 20px 0;
+  text-align: right;
+  font-size: 18px;
+  border-bottom: 1px solid #000;
+}
+
+.loginconsultoriapq div.totalcompra strong {
+  font-size: inherit;
+}
+
+.loginconsultoriapq div.botaocomprar {
+  text-align: right;
+  padding: 20px 0;
+}
+
+.breadcrumbcarrinho {
+  padding: 0 0 10px 30px;
+  color: #999;
+}
+
+.breadcrumbcarrinho strong {
+  text-transform: uppercase;
+}
+
+.formadepagamento {
+  clear: both;
+  margin: 10px 0 0 30px;
+}
+
+.formadepagamento li {
+  float: left;
+  padding: 2px;
+}
+
+.formadepagamento li input {
+  margin: 15px 0 0 0;
+}
+
+.caixaformpag {
+  background: #efefef;
+  border: 1px solid #666;
+  padding: 15px;
+  clear: both;
+  margin: 0 20px 0 30px;
+  overflow: hidden;
+}
+
+.caixaformpag h4 {
+  font-weight: bold;
+  padding: 0 0 10px 0;
+}
+
+.caixaformpag input,
+.caixaformpag select {
+  padding: 3px;
+  margin: 2px 0 0 0;
+  clear: both;
+}
+
+.caixaformpag h6 {
+  clear: both;
+  border-bottom: 1px dashed #666;
+  padding: 15px 0 0 0;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.caixaformpag div.alinhacaixagrd {
+  float: left;
+  padding: 0 15px 0 0;
+}
+
+.caixaformpag ul {
+  margin-left: -3px;
+}
+
+.caixaformpag ul li {
+  float: left;
+  padding: 3px;
+}
+
+.caixaformpag ul li input {
+  margin: 0 50px 0 0;
+}
+
+.botaoconfirmar {
+  text-align: right;
+  padding: 10px;
+  border-top: 1px solid #999;
+  margin: 20px;
+}
+/* Termos de uso */
+.termodeuso {
+}
+
+.termodeuso h2 {
+  font: bold 18px Arial, Helvetica, sans-serif;
+  color: #ff6633;
+  padding: 20px 0 0 20px;
+  text-align: left;
+}
+
+.termodeuso p {
+  padding: 20px;
+  text-align: justify;
+  color: #666;
+}
+
+/* NOVO HEADER */
+.site a.logo {
+  background: url(/images/header/logo.jpg) no-repeat;
+  display: block;
+  width: 397px;
+  height: 97px;
+  float: left;
+  display: none;
+}
+
+.site a.logo b {
+  display: none;
+}
+
+/* SUCESSO CONSULTORIA */
+.sucessoconsultoria {
+  background: url(/images/consultoria/fundo_sucesso.jpg) no-repeat right top;
+}
+
+.sucessoconsultoria div.colunainstgrd {
+  width: 600px;
+}
+
+.sucessoconsultoria div.colunainstgrd p {
+  clear: both;
+}
+
+.cxcinzasucesso {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #c8c8c8;
+  background: #efefef;
+  padding: 20px;
+}
+
+.cxcinzasucesso h3 {
+  background: url(/images/consultoria/icone_verde.jpg) no-repeat;
+  padding: 10px 0 10px 100px;
+  font: bold 20px Arial, Helvetica, sans-serif;
+  color: #117267;
+}
+
+.cxcinzasucesso h3 span {
+  color: #000;
+  font-size: 16px;
+}
+
+.sucessoconsultoria ul li {
+  color: #666666;
+  padding: 20px 0 20px 120px;
+}
+
+.sucessoconsultoria ul li.nosite {
+  background: url(/images/consultoria/icone_cpu.jpg) no-repeat 20px 15px;
+}
+
+.sucessoconsultoria ul li.portel {
+  background: url(/images/consultoria/icone_tel.jpg) no-repeat 20px 15px;
+}
+
+.sucessoconsultoria ul li.poremail {
+  background: url(/images/consultoria/icone_mail.jpg) no-repeat 20px 15px;
+}
+
+/* NOVA HOME - RAFINHA BASTOS */
+.faixabannerrafinha {
+  clear: both;
+  height: 285px;
+  display: block;
+  width: 100%;
+}
+
+.faixabannerrafinha div {
+  float: left;
+}
+
+.faixabannerrafinha div.banners {
+  margin: 2px 10px 0 0;
+}
+
+.faixabannerrafinha div a {
+  border: 0px;
+  width: 347px;
+  height: 242px;
+}
+
+.blocoduplointMargemDeslocada {
+  float: left;
+  margin-left: 30px;
+  width: 440px;
+}
+
+.avisolegaldoacao {
+  border: 1px solid #ccc;
+  padding: 25px 25px 25px 110px;
+  margin: 20px;
+  background: url(/images/doacao/warning.png) no-repeat 20px 10px;
+  font: bold 16px Arial, Helvetica, sans-serif;
+  color: #666666;
+}
+
+.conteudoclientes {
+  min-height: 900px;
+}
+
+.conteudoclientes ul.splitter {
+  margin: 0 0 0 10px;
+}
+
+.conteudoclientes ul.splitter li {
+  float: left;
+  padding: 5px 5px 20px 5px;
+}
+
+.conteudoclientes ul#list {
+  clear: both;
+  margin: 0 0 0 20px;
+}
+
+.conteudoclientes ul#list li {
+  width: 460px;
+  float: left;
+  display: block;
+  height: 200px;
+}
+
+.conteudoclientes ul#list li img {
+  float: left;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.conteudoclientes ul#list li div {
+  float: left;
+  width: 240px;
+}
+
+.conteudoclientes ul#list li div h5,
+.conteudoclientes ul#list li div p {
+  padding-left: 0px;
+}
+
+/* SISTEMA DE DECLARAÇAO */
+.colunaesqsistema {
+  width: 768px;
+  float: left;
+}
+
+.forcacolunasistinteira {
+  width: 998px;
+  float: none;
+}
+
+.colunadirsistema {
+  width: 210px;
+  float: right;
+  padding: 20px 0 0 0;
+  display: none;
+}
+
+.listacomsetaverde {
+  margin: 20px;
+}
+
+.listacomsetaverde li {
+  background: url(/images/declaracao/setaverde.jpg) no-repeat 0px 0px;
+  padding: 3px 0 15px 30px;
+  margin-top: 10px;
+}
+
+.listacomsetaverde li a {
+  font-weight: bold;
+  color: #0f5c55;
+}
+/* menu principal sistema */
+.menuprincipalsist {
+  display: block;
+  width: 748px;
+  clear: both;
+  margin-left: 20px;
+}
+
+.menuprincipalsist li {
+  float: left;
+  padding: 2px 10px 1px 10px;
+  margin: 0 1px 0 0;
+  background: url(/images/declaracao/fndmenu.jpg) repeat-x;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid #19897f;
+  border-bottom: 0px;
+}
+
+.menuprincipalsist li:hover {
+  background: url(/images/declaracao/fndmenuhover.jpg) repeat-x;
+  color: #19897f;
+}
+
+.menuprincipalsist li:hover a {
+  color: #19897f;
+}
+
+.menuprincipalsist li.marcado {
+  background: url(/images/declaracao/fndmenuhover.jpg) repeat-x;
+  color: #19897f;
+}
+
+.menuprincipalsist li.marcado a {
+  color: #19897f;
+}
+
+.menuprincipalsist li a {
+  color: #fff;
+  text-transform: uppercase;
+  font: bold 12px Arial, Helvetica, sans-serif;
+}
+
+.menuprincipalsist li a:hover {
+  color: #19897f;
+  text-decoration: none;
+}
+
+.menuprincipalsist li.acessorapido {
+  background: url(/images/declaracao/simbolomenu.jpg) no-repeat top right;
+  color: #ef6c3b;
+  border: 0px;
+  padding: 0px 20px 3px 20px;
+}
+
+.menuprincipalsist li.acessorapido a {
+  color: #ef6c3b;
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+
+.dropmenu li {
+  position: relative;
+}
+
+.dropmenu li:hover ul,
+.dropmenu li:hover div {
+  display: block;
+}
+
+.dropmenu ul {
+  position: absolute;
+  display: none;
+  width: 140px;
+  padding: 0px;
+  margin: 4px 0 0 -15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.dropmenu ul li {
+  float: none;
+  background: none #11665f;
+  margin: 0px;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.dropmenu ul li a {
+  color: #fff !important;
+  display: block;
+  padding: 2px 0px;
+}
+
+.dropmenu ul li a:hover {
+  color: #ef6c3b !important;
+}
+
+.dropmenu ul li:hover {
+  float: none;
+  background: url(/images/declaracao/fndmenuhover.jpg) repeat-x #ffffff;
+  color: #ef6c3b !important;
+}
+
+.dropmenu ul li:hover a {
+  color: #ef6c3b !important;
+}
+/* submenu */
+.cxsubmenusistema {
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #cccccc;
+  border-top: 0px;
+  margin: 0 9px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-box-shadow: 0px 5px 5px 0px #dadada;
+  -moz-box-shadow: 0px 5px 5px 0px #dadada;
+  box-shadow: 0px 5px 5px 0px #dadada;
+  overflow: hidden;
+}
+
+.cxsubmenusistema ul.submenusistema {
+}
+
+.cxsubmenusistema ul.submenusistema li {
+  float: left;
+  padding: 5px 15px;
+}
+
+.cxsubmenusistema ul.submenusistema li a {
+  color: #888888;
+  text-transform: uppercase;
+  font-weight: bold;
+  font: bold 11px Arial, Helvetica, sans-serif;
+}
+
+.cxsubmenusistema ul.submenusistema li.marcado a {
+  color: #f26523;
+}
+/* Box principal */
+.boxcontsist {
+  clear: both;
+  margin: -1px 10px 20px 10px;
+  background: url(/images/declaracao/fndcaixacont.jpg) repeat-x;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #19897f;
+  overflow: hidden;
+  _height: 700px;
+  min-height: 700px;
+}
+
+.boxcontsist p {
+  padding: 0px 20px;
+}
+
+.boxcontsist h1 {
+  font: bold 20px Arial, Helvetica, sans-serif;
+  color: #126d66;
+  padding: 20px 20px 5px 20px;
+}
+
+.boxcontsist h5 {
+  font: bold 16px Arial, Helvetica, sans-serif;
+  color: #666666;
+  padding: 20px 20px 5px 20px;
+}
+
+.boxcontsist div.caixavideosist {
+  background: url(/images/declaracao/fdnvideo.png) no-repeat;
+  padding: 40px 0 40px 176px;
+}
+
+.boxcontsist div.caixavideosist a {
+  border: 0px;
+  width: 381px;
+  height: 230px;
+}
+/* coluna da direita */
+.colunadirsistema div.cxajudasist {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #c8c8c8;
+  background: url(/images/declaracao/topcxajuda.jpg) no-repeat #efefef;
+  padding: 60px 15px 15px 15px;
+  margin-bottom: 20px;
+}
+
+.colunadirsistema div.cxajudasist input {
+  padding: 3px;
+  float: left;
+  color: #999;
+}
+
+.colunadirsistema div.cxajudasist .btnbuscarsist {
+  padding: 1px 0 0 5px;
+}
+
+.colunadirsistema div.cxajudasist ul {
+  clear: both;
+  display: block;
+}
+
+.colunadirsistema div.cxajudasist ul li {
+  padding: 10px 5px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.colunadirsistema div.cxajudasist ul li a {
+  color: #137169;
+}
+
+.colunadirsistema div.cxajudasist p {
+  text-align: center;
+  padding: 10px 0 0 0;
+  color: #666666;
+  font-weight: bold;
+}
+
+.colunadirsistema div.cxajudasist p a {
+  color: #666666;
+  text-decoration: underline;
+}
+/* home */
+.boxcontsist .listacomiconessist {
+}
+
+.boxcontsist .listacomiconessist li {
+  padding: 15px 25px;
+  clear: both;
+}
+
+.boxcontsist .listacomiconessist li img {
+  display: block;
+  float: left;
+  width: 103px;
+  height: 96px;
+  margin: 0 10px 0 0;
+}
+
+.boxcontsist .listacomiconessist li div.conttxtsist {
+  width: 570px;
+  float: left;
+}
+
+.boxcontsist .listacomiconessist li div.conttxtsist h2 {
+  font: 18px Arial, Helvetica, sans-serif;
+  color: #126d66;
+  padding: 10px 0 5px 0;
+}
+
+.boxcontsist .listacomiconessist li div.conttxtsist p {
+  color: #666666;
+  padding: 0px;
+}
+
+.boxcontsist .listacomiconessist li div.conttxtsist p a {
+  color: #666666;
+}
+
+.boxcontsist .btncomecar {
+  padding: 0 25px;
+  display: block;
+  clear: both;
+  margin: 20px 0;
+}
+/* stautus bar */
+.ui-widget-header {
+  background: url('/images/declaracao/fundostatusbar.jpg') repeat-x scroll 50%
+    50% red !important;
+  border: 1px solid #e0e0e0 !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.ui-progressbar-value {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 22px;
+  padding-left: 10px;
+}
+/* POS LOGIN */
+.fundoposlogin {
+  background: url('/images/declaracao/fundoposlogin.jpg') no-repeat top right;
+  height: 400px;
+}
+/* INFORMAÇÕES PESSOAIS */
+.fundoip {
+}
+
+.fundoipseuano {
+  background: url('/images/declaracao/fundoipseuano.jpg') no-repeat top right;
+  overflow: hidden;
+}
+
+.colesqinfopes {
+  width: 700px;
+  float: left;
+}
+
+.boxcontsist .fundoip .caixavideosist {
+  width: 335px !important;
+  float: right;
+  background: none !important;
+  padding: 40px 23px 0 0;
+}
+
+.colunaformsist {
+  float: left;
+  width: 350px;
+  margin: 60px 0 0 20px;
+}
+
+.bordadir2px {
+  border-right: 2px solid #cccccc;
+}
+
+.colunaformsist ul li {
+  float: none;
+  clear: both;
+  padding: 10px 0;
+}
+
+.colunaformsist ul li h3 {
+  font-weight: bold;
+  color: #117267;
+  font-size: 14px;
+}
+
+.colunaformsist ul li img {
+  float: left;
+}
+
+.colunaformsist ul li ul {
+  display: block;
+  float: left;
+  width: 290px;
+}
+
+.colunaformsist ul li ul li {
+  padding: 7px 10px;
+}
+
+.colunaformsist ul li ul li input {
+  float: left;
+  margin: 2px 5px 0 0;
+}
+
+.colunaformsist ul li ul li label {
+  display: block;
+  float: left;
+  width: 250px;
+  margin: 0px;
+}
+/* NUCLEO FAMILIAR */
+.listacomiconespeqsist {
+}
+
+.listacomiconespeqsist li {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0px;
+  margin: 0 20px;
+  clear: both;
+  overflow: hidden;
+}
+
+.listacomiconespeqsist li.semlinhabase {
+  border: 0px;
+}
+
+.listacomiconespeqsist li img.iconepeq {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.listacomiconespeqsist li div.conttxtsist {
+  float: left;
+  width: 620px;
+  overflow: hidden;
+}
+
+.listacomiconespeqsist li div.conttxtsist h3 {
+  font-weight: bold;
+  color: #117267;
+  font-size: 14px;
+}
+
+.listacomiconespeqsist li div.conttxtsist p {
+  padding: 5px 0px;
+}
+
+.listacomiconespeqsist li div.conttxtsist p a {
+  color: #666;
+  text-decoration: underline;
+}
+
+.listacomiconespeqsist li div.conttxtsist p a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.listacomiconespeqsist li div.conttxtsist p a img {
+  margin-right: 5px;
+}
+
+.listacomiconespeqsist li div.conttxtsist input {
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+a.linkduvidas {
+  display: block;
+  background: url('/images/declaracao/iconeduvidas.jpg') no-repeat 0 5px;
+  padding: 5px 0 5px 20px;
+  color: #ff6633;
+  width: 70px;
+}
+
+a.linkinterroga {
+  background: url('/images/declaracao/iconeduvidaspeq.jpg') no-repeat 5px 0px;
+  width: 17px;
+  height: 12px;
+  display: inline-block;
+}
+
+.listacomiconespeqsist li ul li {
+  border: 0px;
+  padding: 2px 0;
+}
+
+.listacomiconespeqsist li ul li input {
+  border: 0px !important;
+  margin: 2px 5px 0 0;
+  float: left;
+}
+/*-----------------------------------------------------------------------------------------------*/
+/*                                         TOOLTIP STYLES                                        */
+/*-----------------------------------------------------------------------------------------------*/
+.tTip {
+  width: 200px;
+  position: absolute;
+  cursor: pointer;
+  color: #666;
+  font-weight: bold;
+}
+
+.tip {
+  color: #333;
+}
+
+.tip {
+  width: 212px;
+  padding-top: 37px;
+  overflow: hidden;
+  display: none;
+  position: absolute;
+  z-index: 500;
+  background: transparent url(/images/declaracao/tipTop.png) no-repeat top;
+}
+
+.tipMid {
+  background: transparent url(/images/declaracao/tipMid.png) repeat-y;
+  padding: 0 25px 20px 25px;
+}
+
+.tipBtm {
+  background: transparent url(/images/declaracao/tipBtm.png) no-repeat bottom;
+  height: 32px;
+}
+
+/* DADOS BASICOS */
+.cabecaformsist {
+  padding: 10px 20px;
+  clear: both;
+}
+
+.cabecaformsist img {
+  float: left;
+  margin-right: 10px;
+}
+
+.cabecaformsist div.infocabecasist {
+  float: left;
+  width: 620px;
+}
+
+.cabecaformsist div.infocabecasist h3 {
+  font-weight: bold;
+  color: #117267;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+.cabecaformsist div.infocabecasist select {
+  width: 150px;
+  padding: 2px;
+}
+
+.form4colunas {
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.form4colunas .linhacinzaseparadora {
+  margin: 20px 20px 0 20px;
+  padding: 5px;
+  background: #eeeeee;
+  clear: both;
+}
+
+.titulocinzaseparadora {
+  margin: 20px 20px -15px 20px;
+  padding: 5px;
+  background: #eeeeee;
+  clear: both;
+  font-weight: bold;
+}
+
+.form4colunas .formcel1col .titulocinzaseparadora {
+  margin: 13px 0 0 0px;
+  padding: 5px;
+  background: #eeeeee;
+  clear: both;
+  font-weight: bold;
+}
+
+.form4colunas a.linkduvidas {
+  margin: 20px;
+}
+
+.form4colunas hr {
+  margin: 0 20px;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+/* linha simples formulario */
+.form4colunas .formcel1col {
+  float: left;
+  margin: 20px 0px 0px 20px;
+  width: 165px;
+}
+
+.form4colunas .formcel1col label,
+.form4colunas .formcel2col label,
+.form4colunas .formcel2col1 label,
+.form4colunas .formcel3col label {
+  float: none;
+  clear: both;
+  display: block;
+}
+
+.form4colunas .formcel1col input,
+.form4colunas .formcel1col select {
+  padding: 2px;
+  border: 1px solid #ccc;
+  width: 147px;
+  margin: 0px;
+  float: none;
+  clear: both;
+}
+/* linha dupla formulario */
+.form4colunas .formcel2col {
+  float: left;
+  margin: 20px 0px 0px 20px;
+  width: 350px;
+}
+
+.form4colunas .formcel2col input,
+.form4colunas .formcel2col select {
+  padding: 2px;
+  border: 1px solid #ccc;
+  width: 330px;
+}
+/* linha dupla formulario com input 1 coluna */
+.form4colunas .formcel2col1 {
+  float: left;
+  margin: 20px 0px 0px 20px;
+  width: 350px;
+}
+
+.form4colunas .formcel2col1 input {
+  padding: 2px;
+  border: 1px solid #ccc;
+  width: 147px;
+}
+/* linha dupla formulario */
+.form4colunas .formcel2col {
+  float: left;
+  margin: 20px 0px 0px 20px;
+  width: 350px;
+}
+
+.form4colunas .formcel2col input,
+.form4colunas .formcel2col select {
+  padding: 2px;
+  border: 1px solid #ccc;
+  width: 330px;
+}
+
+.form4colunas .formcel2col textarea {
+  padding: 2px;
+  border: 1px solid #ccc;
+  width: 330px;
+  height: 75px;
+}
+/* linha tripla formulario */
+.form4colunas .formcel3col {
+  float: left;
+  margin: 20px 0px 0px 20px;
+  width: 535px;
+}
+
+.form4colunas .formcel3col input,
+.form4colunas .formcel3col select {
+  padding: 2px;
+  border: 1px solid #ccc;
+  width: 515px;
+}
+/* linha tripla formulario com input 2 coluna */
+.form4colunas .formcel3col2 {
+  float: left;
+  margin: 20px 0px 0px 20px;
+  width: 535px;
+}
+
+.form4colunas .formcel3col2 input {
+  padding: 2px;
+  border: 1px solid #ccc;
+  width: 330px;
+}
+
+/* DECLARACAO - RENDIMENTOS */
+.fundodeclaracaorendimentos {
+  background: url('/images/declaracao/fundodeclrendimentos.jpg') no-repeat top
+    right;
+}
+
+.fundodeclaracaorendimentos .colesqinfopes {
+  width: 430px;
+}
+
+.tabeladeopcoesdeclaracao {
+  clear: both;
+  margin: 20px;
+  width: 700px;
+}
+
+.tabeladeopcoesdeclaracao td {
+  padding: 5px;
+}
+
+.tabeladeopcoesdeclaracao thead td {
+  padding-top: 60px;
+}
+
+.tabeladeopcoesdeclaracao tbody td {
+  border-bottom: 1px solid #ccc;
+}
+
+.tabeladeopcoesdeclaracao tbody tr.semlinha td {
+  border-bottom: 0px solid #ccc;
+}
+
+.tabeladeopcoesdeclaracao td.boxsimsisttab,
+.tabeladeopcoesdeclaracao td.acoessisttab {
+  text-align: center;
+  color: #ccc;
+}
+
+.tabeladeopcoesdeclaracao td h3 {
+  font-weight: bold;
+  color: #117267;
+  font-size: 14px;
+  padding: 0px 0;
+}
+
+.tabeladeopcoesdeclaracao td p {
+  color: #666;
+  padding: 0px;
+}
+
+.tabeladeopcoesdeclaracao td a {
+  color: #666;
+  text-decoration: underline;
+}
+
+.tabeladeopcoesdeclaracao td a:hover {
+  text-decoration: none;
+}
+
+.tabeladeopcoesdeclaracao td a.btniniciartabsist {
+  color: #f26523;
+}
+
+.tabeladeopcoesdeclaracao td.imgsisttab {
+  width: 60px;
+}
+
+.tabeladeopcoesdeclaracao td.boxsimsisttab {
+  width: 30px;
+}
+
+.tabeladeopcoesdeclaracao td.acoessisttab {
+  width: 60px;
+}
+
+.navegacaosist {
+  padding: 20px;
+  clear: both;
+}
+
+.navegacaosist .btnnavvoltar {
+  display: block;
+  float: left;
+  width: 123px;
+  height: 38px;
+}
+
+.navegacaosist .btnnavavancar {
+  display: block;
+  float: right;
+  width: 123px;
+  height: 38px;
+}
+
+/* DECLARACAO - DESPESAS */
+.fundodeclaracaodespesas {
+  background: url('/images/declaracao/fundodecldespesas.jpg') no-repeat top
+    right;
+}
+
+.fundodeclaracaodespesas .colesqinfopes {
+  width: 430px;
+}
+
+/* DECLARACAO - FINANCAS */
+.fundodeclaracaofinancas {
+  background: url('/images/declaracao/fundodeclfinancas.jpg') no-repeat top
+    right;
+}
+
+.fundodeclaracaofinancas .colesqinfopes {
+  width: 430px;
+}
+
+/* DECLARACAO - FINANCAS */
+.fundodeclaracaotrasnsferencias {
+  background: url('/images/declaracao/fundodecltransferencias.jpg') no-repeat
+    top right;
+}
+
+.fundodeclaracaotrasnsferencias .colesqinfopes {
+  width: 430px;
+}
+
+/* DECLARACAO - BENS E DIREITOS */
+.fundodeclaracaobensecireitos {
+  background: url('/images/declaracao/fundodeclbens.jpg') no-repeat top right;
+}
+
+.fundodeclaracaobensecireitos .colesqinfopes {
+  width: 430px;
+}
+
+/* DECLARACAO - OUTROS RENDIMENTOS */
+.fundodeclaracaooutrosrend {
+  background: url('/images/declaracao/fundodecloutrosrendimentos.jpg') no-repeat
+    top right;
+}
+
+.fundodeclaracaooutrosrend .colesqinfopes {
+  width: 430px;
+}
+
+/* DECLARACAO - RENDIMENTOS - AUTONOMO */
+.fundodeclaracaorendautonomo {
+  background: url('/images/declaracao/fundodeclrendautonomo.jpg') no-repeat top
+    right;
+}
+
+.fundodeclaracaorendautonomo .colesqinfopes {
+  width: 530px;
+}
+
+.colesqinfopes .listacabeca {
+  margin: 0 20px;
+}
+
+.colesqinfopes .listacabeca li {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.colesqinfopes .listacabeca li input {
+  margin: 2px 5px 0 0;
+}
+
+.incluirmais {
+}
+
+.incluirmais img {
+  margin-right: 5px;
+}
+
+.incluirmais a {
+  color: #666;
+  text-decoration: underline;
+}
+
+.tituloemcaixa {
+  min-height: 10px;
+  clear: both;
+  padding: 20px 0 0 0;
+  margin: 0 20px;
+  border-bottom: 1px solid #999999;
+}
+
+.tituloemcaixa h4 {
+  font: bold 14px Arial, Helvetica, sans-serif;
+  color: #999999;
+  text-align: center;
+  border: 1px solid #999999;
+  padding: 5px 0px;
+  border-bottom: 1px solid #fff;
+  width: 220px;
+  margin: 0 0 -1px 0px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* DECLARACAO - RENDIMENTOS - ASSALARIADO */
+.fundodeclaracaorendassalariado {
+  background: url('/images/declaracao/fundodeclrendassalariado.jpg') no-repeat
+    top right;
+}
+
+.fundodeclaracaorendassalariado .colesqinfopes {
+  width: 530px;
+}
+
+/* RESUMO E VERIFICAÇAO */
+.fundoresumoeverificacao {
+}
+
+.boxcontsist .fundoresumoeverificacao .caixavideosist {
+  width: 335px !important;
+  float: right;
+  background: none !important;
+  padding: 75px 23px 0 0;
+}
+/* Lista Resumo e Verificação */
+.listaresumoeverificacao {
+  clear: both;
+  display: block;
+  width: 640px;
+  margin: 0 20px;
+}
+
+.listaresumoeverificacao li {
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.listaresumoeverificacao li img {
+  float: left;
+}
+
+.listaresumoeverificacao li div.txtresumover {
+  width: 519px;
+  float: left;
+}
+
+.listaresumoeverificacao li h2 {
+  color: #117267;
+  font: bold 18px Arial, Helvetica, sans-serif;
+  padding: 20px 0 0 0;
+}
+
+.listaresumoeverificacao li h5 {
+  color: #000;
+  font: bold 14px Arial, Helvetica, sans-serif;
+}
+
+.listaresumoeverificacao li h6 {
+  color: #000;
+  font: 12px Arial, Helvetica, sans-serif;
+  padding: 10px 0 0 10px;
+}
+
+.listaresumoeverificacao li div.txtresumover a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.listaresumoeverificacao li div.txtresumover a:hover {
+  text-decoration: none;
+}
+
+.listaresumoeverificacao li ul {
+  display: block;
+  width: 490px;
+  margin: 0 0 0 29px;
+}
+
+.listaresumoeverificacao li ul li {
+  clear: both;
+  padding: 5px 0;
+}
+
+.listaresumoeverificacao li ul li div.txtresumover {
+  width: 392px;
+  float: left;
+}
+
+.listaresumoeverificacao li ul li div.temfilhos {
+  width: 432px;
+}
+
+.listaresumoeverificacao li ul li img.alvostatus {
+  float: right;
+  margin: 20px 0 0 0;
+}
+
+.listaresumoeverificacao li ul li a.lupamais {
+  float: right;
+  margin: 22px 0 0 0;
+}
+
+.listaresumoeverificacao li ul li ul {
+  display: block;
+  width: 403px;
+  margin: 0 0 0 29px;
+}
+
+.listaresumoeverificacao li ul li ul li {
+  clear: both;
+  padding: 5px 0;
+}
+
+.listaresumoeverificacao li ul li ul li div.txtresumover {
+  width: 315px;
+  float: left;
+}
+
+.listaresumoeverificacao li ul li ul li img.alvostatus {
+  float: right;
+  margin: 10px 0 0 0;
+}
+
+.listaresumoeverificacao li ul li ul li a.lupamais {
+  float: right;
+  margin: 12px 0 0 0;
+}
+
+.linhacinzatop {
+  border-top: 1px solid #ccc;
+  padding: 20px 0 0 0;
+  margin: 0 20px;
+}
+
+.cabecalistasistres {
+  text-align: center;
+  color: #999;
+  float: right;
+  width: 180px;
+  margin: 20px 25px -30px 0;
+}
+
+/* RESULTADO / RANKING */
+.fundoranking {
+  background: url('/images/declaracao/fundos/fundoranking.jpg') no-repeat top
+    right;
+  overflow: hidden;
+}
+
+.fundoranking .colesqinfopes {
+  width: 700px;
+}
+
+.fundorankingnovo div.rankingList {
+  margin: 0 25px;
+}
+
+.fundorankingnovo h6.atencaosistcen {
+  color: #e15f2b;
+  font: bold 16px Arial, Helvetica, sans-serif;
+  margin: 0 25px;
+  border-bottom: 1px dashed #ccc;
+  padding: 20px 0 10px 5px;
+}
+
+.linhacinzabasecombotao {
+  padding: 20px 0 30px 0;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  margin: 0 20px;
+}
+
+.boxcenarioindividual {
+  width: 330px;
+  float: left;
+  margin: 20px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 230px;
+}
+
+.boxcenarioindividual img {
+  float: left;
+  margin: 10px 0;
+}
+
+.boxcenarioindividual .conteudoboxindividual {
+  float: left;
+  width: 270px;
+}
+
+.boxcenarioindividual .conteudoboxindividual p {
+  padding: 5px 10px 5px 0;
+}
+
+.boxcenarioindividual .conteudoboxindividual h3 {
+  color: #117267;
+  font: bold 16px Arial, Helvetica, sans-serif;
+  padding: 10px 10px 0 0;
+}
+
+.boxcenarioindividual .conteudoboxindividual h4 {
+  color: #117267;
+  font: bold 14px Arial, Helvetica, sans-serif;
+  padding: 0 10px 0 0;
+}
+
+.boxcenarioindividual ul {
+  clear: both;
+}
+
+.boxcenarioindividual ul li {
+  float: left;
+  display: block;
+  width: 108px;
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+
+.boxcenarioindividual ul li a {
+  color: #ed784c;
+  font: bold 14px Arial, Helvetica, sans-serif;
+}
+
+.boxcenarioindividual ul li.visualizardeclaracao {
+  background: url(/images/declaracao/fndbotaovisualizar.jpg) no-repeat top
+    center;
+}
+
+.boxcenarioindividual ul li.esportararquivo {
+  background: url(/images/declaracao/fndbotaoexportar.jpg) no-repeat top center;
+  border-left: 1px solid #ccc;
+}
+
+.boxcenarioindividual ul li.gerarrelatorios {
+  background: url(/images/declaracao/fndbotaorelatorios.jpg) no-repeat top
+    center;
+  border-left: 1px solid #ccc;
+}
+
+.formatacaodetxtgr h3 {
+  color: #117267;
+  font: bold 14px Arial, Helvetica, sans-serif;
+  padding: 10px 10px 0 20px;
+}
+
+.formatacaodetxtgr p {
+  padding: 5px 20px;
+}
+
+.tabvarpatrimonial {
+  margin: 20px 20px 0 20px;
+}
+
+.tabvarpatrimonial td {
+  font: 12px Arial, Helvetica, sans-serif;
+  padding: 3px;
+  border: 1px solid #cccccc;
+}
+
+.tabvarpatrimonial thead td {
+  color: #fff;
+  background: #167b70;
+}
+
+.tabvarpatrimonial tfoot td {
+  background: #eeeeee;
+}
+
+.listanumerossist {
+  margin: 20px;
+}
+
+.listanumerossist li {
+  list-style-type: decimal;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 0 20px;
+  color: #ff6900;
+  font-weight: bold;
+}
+
+.listanumerossist li span {
+  color: #000;
+  font-weight: normal;
+}
+
+.listanumerossist li.semlinha {
+  border: 0px;
+}
+
+.linkexportacaoarquivo {
+  margin: 0 30px;
+  clear: both;
+}
+
+.linkpdf {
+  margin: 30px;
+  clear: both;
+  padding: 0 0 0 20px;
+  background: url(/images/declaracao/iconepdf.jpg) no-repeat;
+  display: block;
+  color: #ff6900;
+  height: 30px;
+}
+
+.visualizacaoreceita {
+  padding: 15px;
+}
+
+/* FUNDOS */
+.titulosinternosnivel02 h5 {
+  width: 500px;
+}
+
+.fundonucleofamiliar01 {
+  background: url(/images/declaracao/fundos/fundosnucleofamiliar1.jpg) no-repeat;
+}
+
+.fundonucleofamiliar02 {
+  background: url(/images/declaracao/fundos/fundosnucleofamiliar2.jpg) no-repeat;
+}
+
+.fundonucleofamiliar02 ul.listacomiconespeqsist li {
+  border: 0px;
+}
+
+.fundonucleofamiliar03 {
+  background: url(/images/declaracao/fundos/fundosnucleofamiliar3.jpg) no-repeat;
+}
+
+.fundonucleofamiliar04 {
+  background: url(/images/declaracao/fundos/fundosnucleofamiliar4.jpg) no-repeat;
+}
+
+.declaracao-anual-rendimentos-assalariado {
+  background: url(/images/declaracao/fundos/fundodeclrendaassalariado.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-rendimentos-autonomo {
+  background: url(/images/declaracao/fundos/fundodeclrendautonomo.jpg) no-repeat;
+}
+
+.declaracao-anual-rendimentos-empresapropria {
+  background: url(/images/declaracao/fundos/fundodeclrendaempresapropria.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-rendimentos-atividaderural {
+  background: url(/images/declaracao/fundos/fundodeclrendaatividaderural.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-rendimentos-previdencia {
+  background: url(/images/declaracao/fundos/fundodeclrendaresgateprevidencia.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-rendimentos-alimenticia {
+  background: url(/images/declaracao/fundos/fundodeclrendapensaoalimenticia.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-rendimentos-aluguel {
+  background: url(/images/declaracao/fundos/fundodeclrendaaluguel.jpg) no-repeat;
+}
+
+.declaracao-anual-rendimentos-redimentoacumulado {
+  background: url(/images/declaracao/fundos/fundodeclrendarendimentoacumulado.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-rendimentos-redimentosdiversos {
+  background: url(/images/declaracao/fundos/fundodeclrendarendimentosdiversos.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-rendimentos-impostos {
+  background: url(/images/declaracao/fundos/fundodeclrendaimpostoemjuizo.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-despesas-saude {
+  background: url(/images/declaracao/fundos/fundodecldespesassaude.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-despesas-educacao {
+  background: url(/images/declaracao/fundos/fundodecldespesaseducacao.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-despesas-previdencia {
+  background: url(/images/declaracao/fundos/fundodecldespesasprevidencia.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-despesas-alimenticia {
+  background: url(/images/declaracao/fundos/fundodeclrendapensaoalimenticia.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-despesas-inss {
+  background: url(/images/declaracao/fundos/fundodecldespesasempregadodomestico.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-despesas-doacao {
+  background: url(/images/declaracao/fundos/fundodecldespesasdoacao.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-despesas-impostos {
+  background: url(/images/declaracao/fundos/fundodecldespesasimposto.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-despesas-rendimentoacumulado {
+  background: url(/images/declaracao/fundos/fundodeclrendarendimentoacumulado.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-despesas-pagdiversos {
+  background: url(/images/declaracao/fundos/fundodecldespesaspagamentosdiversos.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-financas-ganhos {
+  background: url(/images/declaracao/fundos/fundodeclfinancasganhofinanceiro.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-financas-bolsa {
+  background: url(/images/declaracao/fundos/fundodeclfinancasrendavariavel.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-financas-bensfinanceiros {
+  background: url(/images/declaracao/fundos/fundodeclfinancasbensfinanceiros.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-financas-dividas {
+  background: url(/images/declaracao/fundos/fundodeclfinancasdividas.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-transferencias-importacao {
+  background: url(/images/declaracao/fundos/fundodecltransferenciasganhocapital.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-transferencias-venda {
+  background: url(/images/declaracao/fundos/fundodecltransferenciascompraevenda.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-transferencias-heranca {
+  background: url(/images/declaracao/fundos/fundodecltransferenciasheranca.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-bensedireitos-naorurais {
+  background: url(/images/declaracao/fundos/fundodeclbensnaorurais.jpg)
+    no-repeat;
+}
+
+.declaracao-anual-bensedireitos-rurais {
+  background: url(/images/declaracao/fundos/fundodeclbensrurais.jpg) no-repeat;
+}
+
+declaracao-anual-outros-comajuste {
+  background: url(/images/declaracao/fundos/fundodecloutrosrendimentosCOMreajuste.jpg)
+    no-repeat;
+}
+
+declaracao-anual-outros-semajuste {
+  background: url(/images/declaracao/fundos/fundodecloutrosrendimentosSEMreajuste.jpg)
+    no-repeat;
+}
+
+/* Labels de validação */
+label.error,
+p.validation.error {
+  color: Red;
+}
+
+.notAuthenticated {
+  margin: 5% 34%;
+}

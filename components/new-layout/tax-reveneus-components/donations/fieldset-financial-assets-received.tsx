@@ -1,0 +1,137 @@
+import * as React from 'react';
+import { useRouter } from 'next/router';
+import ProgressBar from '../../core-layout/progress-bar';
+import SelectPerson from '../../../select-person';
+import CountrySelect from '../../core-layout/country-select';
+import SelectAssets from '../../core-layout/assets-select';
+import MaskedInput from '../../../masked-input';
+
+export default function FieldsetFinancialAssetsReceived() {
+  const router = useRouter();
+  return (
+    <>
+      <div className="card card1">
+        <div className="row justify-content-center my-auto">
+          <div className="col-lg-8 my-5 text-center nucelo-full">
+            <form id="msform">
+              <ProgressBar percent={20} />
+              <fieldset>
+                <h3>Doações - Recebida em Bens</h3>
+
+                <div className="form-group">
+                  <div className="row">
+                    <div className="col-sm-6 m-auto">
+                      <label
+                        className="form-control-placeholder"
+                        htmlFor="nameReceived"
+                        title="Quem recebeu?"
+                      >
+                        Quem foi beneficiado?
+                      </label>
+                      <SelectPerson
+                        onChange={(person) => console.log(person)}
+                      />
+                    </div>
+                    <div className="col-sm-6 m-auto"></div>
+                    <div className="col-sm-6 m-auto">
+                      <SelectAssets />
+                    </div>
+                    <div className="col-sm-6 m-auto">
+                      <CountrySelect />
+                    </div>
+                    <div className="col-sm-12 m-auto">
+                      <label
+                        className="form-control-placeholder"
+                        htmlFor="Description"
+                      >
+                        Descrição do bem
+                      </label>
+                      <textarea
+                        id="Description"
+                        className="form-control"
+                        placeholder="Descrição"
+                      />
+                    </div>
+                    <div className="col-sm-12 m-auto">
+                      <label
+                        className="form-control-placeholder"
+                        htmlFor="donate"
+                      >
+                        Doador
+                      </label>
+                      <input
+                        type="text"
+                        id="donate"
+                        className="form-control"
+                        placeholder="Nome Fonte Pagadora"
+                      />
+                    </div>
+
+                    <div className="col-sm-6 m-auto">
+                      <label
+                        className="form-control-placeholder"
+                        htmlFor="CNPJ"
+                      >
+                        CNPJ/CPF
+                      </label>
+                      <MaskedInput
+                        id="CNPJ"
+                        mask="99.999.999/9999-99"
+                        name="CNPJCPF"
+                        className="form-control"
+                        value=""
+                        onChange={(e) => console.log(e.target.value)}
+                      />
+                    </div>
+                    <div className="col-sm-6 m-auto">
+                      <label
+                        className="form-control-placeholder"
+                        htmlFor="Value"
+                      >
+                        Valor do Bem
+                      </label>
+                      <input
+                        type="text"
+                        id="Value"
+                        className="form-control"
+                        placeholder="R$"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-sm-12 plus-icon">
+                    <i className="fal fa-minus"></i>
+                    Excluir última doação
+                  </div>
+                  <div className="col-sm-12 plus-icon">
+                    <i className="fal fa-plus add_more_incluir"></i>Incluir nova
+                    doação
+                  </div>
+                </div>
+                <button
+                  className="btn btn-gray previous "
+                  data-img="images/undraw_Balloons.svg"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    router.push('/2021/arrecadacao/doacoes');
+                  }}
+                >
+                  Voltar
+                </button>
+                <button
+                  className="btn btn-gray green-bg next"
+                  data-img="images/step2.svg"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    router.push('/2021/arrecadacao/doacoes-realizadas');
+                  }}
+                >
+                  Continuar
+                </button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navegation renders correctly 1`] = `
+<div
+  className="cxsubmenusistema"
+>
+  <ul
+    className="submenusistema"
+  >
+    <li
+      id="ranking"
+    >
+      <a
+        href="/resultado/ranking"
+      >
+        Ranking
+      </a>
+    </li>
+    <li
+      id="exportacao"
+    >
+      <a
+        href="/resultado/exportacao"
+      >
+        Exportação
+      </a>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders correctly 1`] = `
+<input
+  className="tituloEleitor"
+  id="dadosbasicos-titular-titulo"
+  name="voterRegistration"
+  onChange={[Function]}
+  placeholder="CPF"
+  type="text"
+  value="something"
+/>
+`;

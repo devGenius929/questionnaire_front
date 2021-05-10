@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Autonomous Expense renders correctly 1`] = `
+<div
+  className="card card0"
+>
+  <div
+    className="d-flex flex-lg-row flex-column-reverse"
+  >
+    <div
+      className="card card1"
+    >
+      <div
+        className="row justify-content-center my-auto"
+      >
+        <div
+          className="col-lg-8 my-5 text-center nucelo-full"
+        >
+          <form
+            id="msform"
+          >
+            <div
+              className="RSPBprogressBar"
+              style={
+                Object {
+                  "background": null,
+                  "height": null,
+                  "width": null,
+                }
+              }
+            >
+              <div
+                className="RSPBstep"
+                style={
+                  Object {
+                    "left": "0%",
+                    "transform": "translateX(-50%) scale(1)",
+                    "transitionDuration": "300ms",
+                  }
+                }
+              >
+                <img
+                  src="/images/newlayout/images/progress-bar-icons/1 - Nucleo Familia.png"
+                  style={
+                    Object {
+                      "filter": "grayscale(0%)",
+                    }
+                  }
+                  width="40"
+                />
+              </div>
+              <div
+                className="RSPBstep"
+                style={
+                  Object {
+                    "left": "20%",
+                    "transform": "translateX(-50%) scale(1)",
+                    "transitionDuration": "300ms",
+                  }
+                }
+              >
+                <img
+                  src="/images/newlayout/images/progress-bar-icons/2 - Rendimentos.png"
+                  style={
+                    Object {
+                      "filter": "grayscale(0%)",
+                    }
+                  }
+                  width="40"
+                />
+              </div>
+              <div
+                className="RSPBstep"
+                style={
+                  Object {
+                    "left": "40%",
+                    "transform": "translateX(-50%) scale(1)",
+                    "transitionDuration": "300ms",
+                  }
+                }
+              >
+                <img
+                  src="/images/newlayout/images/progress-bar-icons/3 - Despesas.png"
+                  style={
+                    Object {
+                      "filter": "grayscale(80%)",
+                    }
+                  }
+                  width="40"
+                />
+              </div>
+              <div
+                className="RSPBstep"
+                style={
+                  Object {
+                    "left": "60%",
+                    "transform": "translateX(-50%) scale(1)",
+                    "transitionDuration": "300ms",
+                  }
+                }
+              >
+                <img
+                  src="/images/newlayout/images/progress-bar-icons/6 - Financas"
+                  style={
+                    Object {
+                      "filter": "grayscale(80%)",
+                    }
+                  }
+                  width="40"
+                />
+              </div>
+              <div
+                className="RSPBstep"
+                style={
+                  Object {
+                    "left": "80%",
+                    "transform": "translateX(-50%) scale(1)",
+                    "transitionDuration": "300ms",
+                  }
+                }
+              >
+                <img
+                  src="/images/newlayout/images/progress-bar-icons/5 - Bens.png"
+                  style={
+                    Object {
+                      "filter": "grayscale(80%)",
+                    }
+                  }
+                  width="40"
+                />
+              </div>
+              <div
+                className="RSPBstep"
+                style={
+                  Object {
+                    "left": "100%",
+                    "transform": "translateX(-50%) scale(1)",
+                    "transitionDuration": "300ms",
+                  }
+                }
+              >
+                <img
+                  src="/images/newlayout/images/progress-bar-icons/7 - Icon 7.png"
+                  style={
+                    Object {
+                      "filter": "grayscale(80%)",
+                    }
+                  }
+                  width="40"
+                />
+              </div>
+              <div
+                className="RSPBprogression"
+                style={
+                  Object {
+                    "background": "linear-gradient(to right, #50812E, #50812E)",
+                    "width": "20%",
+                  }
+                }
+              />
+            </div>
+            <br />
+            <fieldset>
+              <h3>
+                Despesa em Livro-Caixa
+              </h3>
+              <div
+                className="col-sm-12 plus-icon"
+                onClick={[Function]}
+              >
+                <i
+                  className="fal fa-plus add_more_incluir"
+                />
+                Incluir novo despesa de fluxo de caixa
+              </div>
+              <button
+                className="btn btn-gray green-bg previous"
+                data-img="images/undraw_Balloons.svg"
+                onClick={[Function]}
+              >
+                Back
+              </button>
+              <button
+                className="btn btn-gray green-bg next"
+                data-img="images/step2.svg"
+                onClick={[Function]}
+              >
+                Continue
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card card2"
+    >
+      <img
+        id="image"
+        src="/images/newlayout/images/man-right.svg"
+      />
+      <div
+        className="right-text"
+      >
+        <h2>
+          Despesa em Livro-Caixa
+        </h2>
+        <p>
+          Despesa em Livro-Caixa
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

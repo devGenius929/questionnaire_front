@@ -1,0 +1,75 @@
+{
+  "name": "declarecerto",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "pretest": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix",
+    "test": "jest",
+    "format": "prettier --write \"**/*.{json,ts,tsx}\"",
+    "e2e": "npx cypress run --headless"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.6",
+    "@auth0/nextjs-auth0": "^0.16.0",
+    "@reduxjs/toolkit": "^1.5.0",
+    "auth0-js": "^9.16.0",
+    "bootstrap": "^4.6.0",
+    "cypress-nextjs-auth0": "^2.0.1",
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0",
+    "intl": "^1.2.5",
+    "intl-locales-supported": "^1.8.12",
+    "js-brasil": "^2.4.1",
+    "next": "^10.0.7",
+    "next-redux-wrapper": "^6.0.2",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.5.2",
+    "react-bootstrap-icons": "^1.4.0",
+    "react-dom": "17.0.1",
+    "react-intl": "^5.13.2",
+    "react-redux": "^7.2.2",
+    "react-select": "^4.2.1",
+    "react-step-progress-bar": "^1.0.3",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.20.1",
+    "@testing-library/dom": "^7.28.1",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.55",
+    "@types/uuid": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "babel-jest": "^26.6.3",
+    "cypress": "^7.2.0",
+    "eslint": "^7.14.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.21.5",
+    "glob": "^7.1.6",
+    "husky": "^4.3.8",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "react-test-renderer": "^17.0.1",
+    "redux-devtools": "^3.7.0",
+    "redux-mock-store": "^1.5.4",
+    "typescript": "^4.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm run test && npm run build"
+    }
+  },
+  "lint-staged": {
+    "*.{js, jsx,ts,tsx,css,md}": "prettier --write --ignore-unknown"
+  }
+}

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders correctly 1`] = `
+<div
+  className="formcel1col"
+>
+  <label
+    className="Name"
+  >
+    Nome*
+  </label>
+  <input
+    className="Name"
+    id="Name"
+    name="Name"
+    onChange={[Function]}
+    type="text"
+    value="Jo Blake"
+  />
+</div>
+`;

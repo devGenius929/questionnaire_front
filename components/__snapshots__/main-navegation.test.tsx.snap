@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders correctly 1`] = `
+<ul
+  className="menuprincipalsist dropmenu"
+  id="nav-one"
+>
+  <li
+    className=""
+    id="ip"
+  >
+    <a
+      href="/informacao-pessoal"
+    >
+      Informações pessoais
+    </a>
+  </li>
+  <li
+    className=""
+    id="declaracao"
+  >
+    <a
+      href="/declaracoes"
+    >
+      Declaração
+    </a>
+  </li>
+  <li
+    className=""
+    id="resumo"
+  >
+    <a
+      href="/resumo"
+    >
+      Resumo e verificação
+    </a>
+  </li>
+  <li
+    className=""
+    id="rankingsist"
+  >
+    <a
+      href="/resultado/ranking"
+    >
+      Resultado / ranking
+    </a>
+  </li>
+  <li
+    className="acessorapido"
+  >
+    <a
+      href="/acesso-rapido"
+    >
+      Acesso rápido
+    </a>
+  </li>
+</ul>
+`;

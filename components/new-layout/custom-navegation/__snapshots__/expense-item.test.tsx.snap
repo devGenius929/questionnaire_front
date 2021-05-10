@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders correctly 1`] = `
+<li
+  className="hidden"
+>
+  <button
+    className="custome_select_event"
+    onClick={[Function]}
+  >
+    Saúde
+    <span />
+  </button>
+</li>
+`;
